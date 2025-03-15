@@ -145,14 +145,11 @@ export function Dropdown({
 
   return (
     <div ref={dropdownRef} className="dropdown-container">
-      <div onClick={toggleDropdown}>
-        <button className="dropdown">
-          {selectedOptions.length
-            ? selectedOptions.join(", ")
-            : label || "Select an option"}
-        </button>
-      </div>
-
+      <button className="dropdown" onClick={toggleDropdown}>
+        {selectedOptions.length
+          ? selectedOptions.join(", ")
+          : label || "Select an option"}
+      </button>
       {isOpen && (
         <div className="dropdown-menu">
           {isMultiSelect ? multiSelectMenu : singleSelectMenu}

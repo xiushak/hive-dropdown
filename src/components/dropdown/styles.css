@@ -17,6 +17,7 @@
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.1);
 }
 
+/* DROPDOWN MENU START */
 .dropdown-menu {
   position: absolute;
   left: 0;
@@ -77,3 +78,4 @@
   font-style: italic;
   color: #444444;
 }
+/* DROPDOWN MENU END */

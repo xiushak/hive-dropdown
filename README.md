@@ -1,3 +1,6 @@
+Screenshot of the dropdown components
+![single select dropdown open](image-1.png)
+![multi select dropdown open](image.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
